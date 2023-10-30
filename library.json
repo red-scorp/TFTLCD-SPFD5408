@@ -1,0 +1,17 @@
+{
+  "name": "SPFD5408 TFT Library",
+  "version": "1.2.1",
+  "keywords": "TFT library for SPFD5408",
+  "description": "TFT library for SPFD5408 for 2.4 inch Arduino TFT Shield. This library requires Adafruit GFX Library.",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/red-scorp/TFTLCD-SPFD5408.git"
+  },
+  "frameworks": "arduino",
+  "platforms":
+  [
+    "atmelavr",
+    "atmelmegaavr"
+  ]
+}
