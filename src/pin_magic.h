@@ -87,7 +87,7 @@
     PORTB = (PORTB & B11010000) | ((d) & B00101111); \
     WR_STROBE; } // STROBEs are defined later
 
-  // Read 8-bit value from LCD data lines.  The signle argument
+  // Read 8-bit value from LCD data lines.  The single argument
   // is a destination variable; this isn't a function and doesn't
   // return a value in the conventional sense.
   #define read8inline(result) {                       \
